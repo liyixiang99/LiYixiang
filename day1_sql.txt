@@ -1,0 +1,10 @@
+creat table stu(
+sno int auto_increment primary key comment "学号"
+sname varchar(20) comment "姓名"
+sex char(1) comment "性别"
+birth data comment "生日"
+heignt decimal(4,1) comment "身高"
+weight decimal(4,1) comment "体重"
+score decimal(4,1) comment "高考总分"
+cno int comment "班号"
+);
